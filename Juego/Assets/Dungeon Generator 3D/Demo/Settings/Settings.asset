@@ -49,7 +49,17 @@ MonoBehaviour:
     player: {fileID: 0}
     minEnemiesPerRoom: 0
     maxEnemiesPerRoom: 0
-    enemies: []
+    enemies:
+    - gameObject: {fileID: 0}
+      name: 
+    - gameObject: {fileID: 0}
+      name: 
+    - gameObject: {fileID: 0}
+      name: 
+    - gameObject: {fileID: 0}
+      name: 
+    - gameObject: {fileID: 0}
+      name: 
     bosses: []
     breakables: []
     staticObjects: []
