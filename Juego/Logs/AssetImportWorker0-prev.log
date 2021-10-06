@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.18f1 (a7d1c678663c) revision 10998214'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19042.1237; Version 2009; 64bit' Language: 'es' Physical Memory: 16221 MB
+OS: 'Windows 10 Home; OS build 18363.1556; Version 1909; 64bit' Language: 'es' Physical Memory: 16325 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,113 +11,113 @@ C:\Program Files\Unity\Hub\Editor\2020.3.18f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/aaron/Documents/GitHub/Juego/Juego
+C:/Users/aaron/Documents/GitHub/ProyectoJuegoEnProgramacionMultimedia/Juego2.0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52498
-Successfully changed project path to: C:/Users/aaron/Documents/GitHub/Juego/Juego
-C:/Users/aaron/Documents/GitHub/Juego/Juego
+55698
+Successfully changed project path to: C:/Users/aaron/Documents/GitHub/ProyectoJuegoEnProgramacionMultimedia/Juego2.0
+C:/Users/aaron/Documents/GitHub/ProyectoJuegoEnProgramacionMultimedia/Juego2.0
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 24.71 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 30.25 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.18f1 (a7d1c678663c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/aaron/Documents/GitHub/Juego/Juego/Assets
+[Subsystems] Discovering subsystems at path C:/Users/aaron/Documents/GitHub/ProyectoJuegoEnProgramacionMultimedia/Juego2.0/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   27.21.14.5763
+    VRAM:     8079 MB
+    Driver:   27.21.14.6589
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001485 seconds.
+Registered in 0.002275 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 25.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 29.32 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.833 seconds
+- Completed reload, in  1.719 seconds
 Domain Reload Profiling:
-	ReloadAssembly (833ms)
-		BeginReloadAssembly (43ms)
+	ReloadAssembly (1719ms)
+		BeginReloadAssembly (49ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (335ms)
-			LoadAssemblies (41ms)
+		EndReloadAssembly (416ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (124ms)
+			SetupTypeCache (169ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (129ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (149ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (25ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (67ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				RefreshPlugins (29ms)
+				BeforeProcessingInitializeOnLoad (7ms)
+				ProcessInitializeOnLoadAttributes (76ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002055 seconds.
+Registered in 0.002735 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.801 seconds
+- Completed reload, in  0.969 seconds
 Domain Reload Profiling:
-	ReloadAssembly (801ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (970ms)
+		BeginReloadAssembly (141ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (635ms)
-			LoadAssemblies (64ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (767ms)
+			LoadAssemblies (87ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (211ms)
+			SetupTypeCache (307ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (243ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (256ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (69ms)
-				ProcessInitializeOnLoadAttributes (160ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (5ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1406 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 65.8 MB.
-System memory in use after: 65.9 MB.
+Unloading 1494 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 68.5 MB.
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1843.
-Total: 2.471100 ms (FindLiveObjects: 0.135300 ms CreateObjectMapping: 0.042600 ms MarkObjects: 2.239800 ms  DeleteObjects: 0.052600 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 1933.
+Total: 2.442100 ms (FindLiveObjects: 0.123400 ms CreateObjectMapping: 0.035400 ms MarkObjects: 2.224600 ms  DeleteObjects: 0.058000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,121 +131,289 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Materials/suelo.mat
-  artifactKey: Guid(396ca4987ebd87f4f8b648ec4be6ccb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/suelo.mat using Guid(396ca4987ebd87f4f8b648ec4be6ccb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d98c5d9535e23373691774e237a4366') in 0.104121 seconds 
-  Import took 0.106011 seconds .
+  path: Assets/Dungeon Generator 3D/Scripts
+  artifactKey: Guid(3c056d53afc02ae429360552859e9812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Scripts using Guid(3c056d53afc02ae429360552859e9812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bff6a90068f096e649c371862508d0db') in 0.007693 seconds 
+  Import took 0.009473 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.300773 seconds.
-  path: Assets/Objetos/Evil Spirit Katana/Resources/Background.png
-  artifactKey: Guid(dbbc646b00fa6ff4f9c4ac5e1068c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Evil Spirit Katana/Resources/Background.png using Guid(dbbc646b00fa6ff4f9c4ac5e1068c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3c02d1e3072bfdf2a0cbc4b7424fc8') in 0.075126 seconds 
-  Import took 0.077668 seconds .
+  Time since last request: 0.000213 seconds.
+  path: Assets/Dungeon Generator 3D/Resources
+  artifactKey: Guid(8564a639f8c0b684e9067ab2c47d237a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Resources using Guid(8564a639f8c0b684e9067ab2c47d237a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86d5eb7649f39f5bc5b6821fe1620c3') in 0.009391 seconds 
+  Import took 0.011698 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Objetos/Evil Spirit Katana/Resources/Particles/Dust.tga
-  artifactKey: Guid(e64c54aed4a97484bb25fee32c00be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Evil Spirit Katana/Resources/Particles/Dust.tga using Guid(e64c54aed4a97484bb25fee32c00be41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd9c4969074f97a9158a9a7b1ff037fc') in 0.017506 seconds 
-  Import took 0.019877 seconds .
+  Time since last request: 0.716575 seconds.
+  path: Assets/Dungeon Generator 3D/Scripts/Generation
+  artifactKey: Guid(3cba6cd815e1e86498659e05c5cd839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Scripts/Generation using Guid(3cba6cd815e1e86498659e05c5cd839d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dda9d8dba2f13e6ec6c44721b08f0b8') in 0.006934 seconds 
+  Import took 0.009029 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Objetos/Evil Spirit Katana/Resources/Background.png
-  artifactKey: Guid(dbbc646b00fa6ff4f9c4ac5e1068c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Evil Spirit Katana/Resources/Background.png using Guid(dbbc646b00fa6ff4f9c4ac5e1068c8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3c02d1e3072bfdf2a0cbc4b7424fc8') in 0.018849 seconds 
-  Import took 0.020709 seconds .
+  Time since last request: 2.250832 seconds.
+  path: Assets/Dungeon Generator 3D/Scripts/Generation/Generator.cs
+  artifactKey: Guid(d96e64ca616a4a846bc6b3bbd61eb7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Scripts/Generation/Generator.cs using Guid(d96e64ca616a4a846bc6b3bbd61eb7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '239de5582c55d92ca6e599c8dc88dc84') in 0.025474 seconds 
+  Import took 0.028006 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Objetos/Evil Spirit Katana/Resources/Particles/Sparks.tga
-  artifactKey: Guid(c68f637c17fe17f46bf49b61c4f34392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Evil Spirit Katana/Resources/Particles/Sparks.tga using Guid(c68f637c17fe17f46bf49b61c4f34392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a3df6508d0156550e111962b5bbdce') in 0.013466 seconds 
-  Import took 0.015505 seconds .
+  Time since last request: 11.623502 seconds.
+  path: Assets/Dungeon Generator 3D/Demo/Scene
+  artifactKey: Guid(fe54c322fe8cd6149a732132db7a3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Demo/Scene using Guid(fe54c322fe8cd6149a732132db7a3abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '425f9c159b305360b3daedfedbc8c2c3') in 0.006152 seconds 
+  Import took 0.008727 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Objetos/Evil Spirit Katana/Standard Textures/Katana_SpecularSmoothness.tga
-  artifactKey: Guid(2fdf23ed1f1deb245be40e341d7f1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Evil Spirit Katana/Standard Textures/Katana_SpecularSmoothness.tga using Guid(2fdf23ed1f1deb245be40e341d7f1eb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63caef1a1461e82b4c91c1f0610dbfe') in 0.043871 seconds 
-  Import took 0.047335 seconds .
+  Time since last request: 0.961744 seconds.
+  path: Assets/Dungeon Generator 3D/Demo/Prefabs
+  artifactKey: Guid(5c79e16f9a627634d9d9a3f8b4d884ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Demo/Prefabs using Guid(5c79e16f9a627634d9d9a3f8b4d884ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c57a3c46cc06dc959eeba2c6547389') in 0.014908 seconds 
+  Import took 0.017010 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Objetos/Evil Spirit Katana/Standard Textures/Katana_AmbientOcclusion.tga
-  artifactKey: Guid(caa1f42d3a0016741bad9b297a614d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Evil Spirit Katana/Standard Textures/Katana_AmbientOcclusion.tga using Guid(caa1f42d3a0016741bad9b297a614d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96d1f8ce326a9925d0e6e510fc6f8e9') in 0.013987 seconds 
-  Import took 0.016384 seconds .
+  Time since last request: 0.085566 seconds.
+  path: Assets/Dungeon Generator 3D/Demo/Prefabs/Generator.prefab
+  artifactKey: Guid(7cceb7c0d418a544287f1fd8bcde9421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Demo/Prefabs/Generator.prefab using Guid(7cceb7c0d418a544287f1fd8bcde9421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd1bf0f2e4fd597e09c5608d6bfcd42') in 0.024823 seconds 
+  Import took 0.026911 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/DungeonTools/Scenes/Example01/ReflectionProbe-0.exr
-  artifactKey: Guid(09b306366a9a62e4e9fa16b07f2ed4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DungeonTools/Scenes/Example01/ReflectionProbe-0.exr using Guid(09b306366a9a62e4e9fa16b07f2ed4f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5400cfe66575392fc430ced42493477') in 0.026596 seconds 
-  Import took 0.029272 seconds .
+  Time since last request: 21.113550 seconds.
+  path: Assets/Dungeon Generator 3D/Demo
+  artifactKey: Guid(6bbc0e49d4ff66441949566fd2e65719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Demo using Guid(6bbc0e49d4ff66441949566fd2e65719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57ab07617223bceadb1404b34bf420e9') in 0.006778 seconds 
+  Import took 0.009008 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Objetos/Evil Spirit Katana/Standard Textures/Katana_NormalMap.tga
-  artifactKey: Guid(40b38abd3f1992c4290d1e21ac65ce09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Evil Spirit Katana/Standard Textures/Katana_NormalMap.tga using Guid(40b38abd3f1992c4290d1e21ac65ce09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1265fc3c178b119a621f052ae8f19dc8') in 0.040415 seconds 
-  Import took 0.043586 seconds .
+  Time since last request: 3.553889 seconds.
+  path: Assets/Dungeon Generator 3D/Demo/Scene/Demo.unity
+  artifactKey: Guid(03df4a32d33228d47aa2ef108f043c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Demo/Scene/Demo.unity using Guid(03df4a32d33228d47aa2ef108f043c3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c7e6fd1050f9cff14107ca2013eef1') in 0.007122 seconds 
+  Import took 0.009368 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000129 seconds.
-  path: Assets/Objetos/Evil Spirit Katana/HDRP Textures/Katana_M(R)AO(G)D(B)S(A).tga
-  artifactKey: Guid(67c38958c3ba54b4d80b49aa8b451c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Evil Spirit Katana/HDRP Textures/Katana_M(R)AO(G)D(B)S(A).tga using Guid(67c38958c3ba54b4d80b49aa8b451c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f0e106cccc9678e012c7b0578f4a46') in 0.021501 seconds 
-  Import took 0.023622 seconds .
+  Time since last request: 26.184376 seconds.
+  path: Assets/Nuestras Carpetas
+  artifactKey: Guid(7bbf9ab9a39ff074e9f59146a44a8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nuestras Carpetas using Guid(7bbf9ab9a39ff074e9f59146a44a8836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9c2bbc99fa635c8c9a224457305697') in 0.009354 seconds 
+  Import took 0.012029 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Objetos/Evil Spirit Katana/Standard Textures/Katana_Albedo.tga
-  artifactKey: Guid(1d7aefe738da4394db05654076d01ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Evil Spirit Katana/Standard Textures/Katana_Albedo.tga using Guid(1d7aefe738da4394db05654076d01ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ede6b7e1f525c24d780928e64d4408') in 0.028857 seconds 
-  Import took 0.033222 seconds .
+  Time since last request: 8.694797 seconds.
+  path: Assets/Nuestras Carpetas/Aaron
+  artifactKey: Guid(d02829d88bf5a2c44ab0c7316834f603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nuestras Carpetas/Aaron using Guid(d02829d88bf5a2c44ab0c7316834f603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cb1c81064cd13c41d74ed2a54ef564') in 0.005783 seconds 
+  Import took 0.007881 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Objetos/Evil Spirit Katana/HDRP Textures/Katana_NormalMap.tga
-  artifactKey: Guid(fe88993b43cbc8047a5781234d97cce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Evil Spirit Katana/HDRP Textures/Katana_NormalMap.tga using Guid(fe88993b43cbc8047a5781234d97cce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89cb7d4ff8bb02b9807819058e6a6bdd') in 0.016397 seconds 
-  Import took 0.018657 seconds .
+  Time since last request: 6.369954 seconds.
+  path: Assets/Nuestras Carpetas/Benjamin
+  artifactKey: Guid(0fd232b833c624c4d8883afae138448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nuestras Carpetas/Benjamin using Guid(0fd232b833c624c4d8883afae138448a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8e9a79632928eedff70d0fc0668c07') in 0.007283 seconds 
+  Import took 0.009340 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Objetos/Evil Spirit Katana/Standard Textures/Katana_Albedo.tga
-  artifactKey: Guid(1d7aefe738da4394db05654076d01ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Evil Spirit Katana/Standard Textures/Katana_Albedo.tga using Guid(1d7aefe738da4394db05654076d01ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33ede6b7e1f525c24d780928e64d4408') in 0.025906 seconds 
-  Import took 0.030144 seconds .
+  Time since last request: 6.760088 seconds.
+  path: Assets/Nuestras Carpetas/Jorge
+  artifactKey: Guid(548e2335ab9ffd24e931c29292c60b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nuestras Carpetas/Jorge using Guid(548e2335ab9ffd24e931c29292c60b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83c074a0cf2376a60284c59b36545c5') in 0.006268 seconds 
+  Import took 0.008226 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Objetos/Evil Spirit Katana/HDRP Textures/Katana_BaseColor.tga
-  artifactKey: Guid(a4aa7d62a47e0a1438cc50519d0a4c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Objetos/Evil Spirit Katana/HDRP Textures/Katana_BaseColor.tga using Guid(a4aa7d62a47e0a1438cc50519d0a4c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86a90d85472cdba02349a8436c6c4f3') in 0.015064 seconds 
-  Import took 0.017613 seconds .
+  Time since last request: 5.476820 seconds.
+  path: Assets/Nuestras Carpetas/Tamara
+  artifactKey: Guid(219703e0e7285b746b59bfcd07dd0918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nuestras Carpetas/Tamara using Guid(219703e0e7285b746b59bfcd07dd0918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b295431783bebf7823ca28fc768c4ffc') in 0.006808 seconds 
+  Import took 0.008690 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 82.969000 seconds.
-  path: Assets/Materials/suelo.mat
-  artifactKey: Guid(396ca4987ebd87f4f8b648ec4be6ccb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/suelo.mat using Guid(396ca4987ebd87f4f8b648ec4be6ccb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '242cefe7f5cbf18f9739487885adcd6e') in 0.015026 seconds 
-  Import took 0.017611 seconds .
+  Time since last request: 3.264289 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85059f4f9e1a832ed95adaa0d25c5c4c') in 0.006281 seconds 
+  Import took 0.008712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.277088 seconds.
+  path: Assets/Nuestras Carpetas/Aaron/escena 1.unity
+  artifactKey: Guid(5df6cf0255856164799854ecaa18d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Nuestras Carpetas/Aaron/escena 1.unity using Guid(5df6cf0255856164799854ecaa18d7b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fda093702e21359a5f733703de8145') in 0.007443 seconds 
+  Import took 0.009541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.224261 seconds.
+  path: Assets/Dungeon Generator 3D/Scripts/Generation/Room.cs
+  artifactKey: Guid(55519974a5ef6a847b4a64799bd84996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Scripts/Generation/Room.cs using Guid(55519974a5ef6a847b4a64799bd84996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6bf8b6446a4ef79fce5724babd8bc9c') in 0.005614 seconds 
+  Import took 0.008062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.011143 seconds.
+  path: Assets/Dungeon Generator 3D/Demo/Settings/Settings.asset
+  artifactKey: Guid(1a976e4400faa1644be6c249c2e76f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Demo/Settings/Settings.asset using Guid(1a976e4400faa1644be6c249c2e76f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a754ec4c3f582a3379fd58d8693c8f89') in 0.008371 seconds 
+  Import took 0.011257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009521 seconds.
+  path: Assets/Dungeon Generator 3D/Demo/Settings/Settings.asset
+  artifactKey: Guid(1a976e4400faa1644be6c249c2e76f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Demo/Settings/Settings.asset using Guid(1a976e4400faa1644be6c249c2e76f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a754ec4c3f582a3379fd58d8693c8f89') in 0.003390 seconds 
+  Import took 0.006147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.366319 seconds.
+  path: Assets/Dungeon Generator 3D/Resources/GUIStyles
+  artifactKey: Guid(60a13bc503f82b349979fa99a3f326b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Resources/GUIStyles using Guid(60a13bc503f82b349979fa99a3f326b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f8759f03e52c16901ec2e337d289340') in 0.007096 seconds 
+  Import took 0.009435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.096041 seconds.
+  path: Assets/Dungeon Generator 3D/Resources/GUIStyles/DungeonGeneration.guiskin
+  artifactKey: Guid(3da32a191f62fae46a200a8d7ed6949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Resources/GUIStyles/DungeonGeneration.guiskin using Guid(3da32a191f62fae46a200a8d7ed6949a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faff1049b363dd08c2280d5b15c2addd') in 0.012069 seconds 
+  Import took 0.014837 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.869765 seconds.
+  path: Assets/Dungeon Generator 3D/Scripts/Editor/Windows
+  artifactKey: Guid(0bd5a7774a9448d4f81e2cda39bc8a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Scripts/Editor/Windows using Guid(0bd5a7774a9448d4f81e2cda39bc8a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b844caf3fc97953960f848b7784ea810') in 0.007078 seconds 
+  Import took 0.009722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.116425 seconds.
+  path: Assets/Dungeon Generator 3D/Scripts/Editor/Windows/EditSettingsWindow.cs
+  artifactKey: Guid(a4cde16ce61ff124a82823cb5a3b87e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Scripts/Editor/Windows/EditSettingsWindow.cs using Guid(a4cde16ce61ff124a82823cb5a3b87e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87d0d0190cf40d26508af876398a156') in 0.007968 seconds 
+  Import took 0.010261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.902295 seconds.
+  path: Assets/Dungeon Generator 3D/Scripts/Editor/Windows/DungeonGeneratorWindow.cs
+  artifactKey: Guid(bfe35036758dcac45bb338b356bc3aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Scripts/Editor/Windows/DungeonGeneratorWindow.cs using Guid(bfe35036758dcac45bb338b356bc3aaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d755c3aabfd49bddc7bf83bfae422ec') in 0.005391 seconds 
+  Import took 0.007486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.154148 seconds.
+  path: Assets/Dungeon Generator 3D/Scripts/Editor/Windows/GeneratorEditor.cs
+  artifactKey: Guid(d5225c7254acc4f40b78d0eb20cf1901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Scripts/Editor/Windows/GeneratorEditor.cs using Guid(d5225c7254acc4f40b78d0eb20cf1901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d29de0a9dcc95eb96488ef683cb45e0') in 0.006426 seconds 
+  Import took 0.009072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000989 seconds.
+  path: Assets/Dungeon Generator 3D/Scripts/Editor/Windows/GeneratorEditor.cs
+  artifactKey: Guid(d5225c7254acc4f40b78d0eb20cf1901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Scripts/Editor/Windows/GeneratorEditor.cs using Guid(d5225c7254acc4f40b78d0eb20cf1901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d29de0a9dcc95eb96488ef683cb45e0') in 0.002004 seconds 
+  Import took 0.004253 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003398 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.840 seconds
+Domain Reload Profiling:
+	ReloadAssembly (840ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (670ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (236ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1488 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.4 MB.
+System memory in use after: 68.5 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1938.
+Total: 2.420500 ms (FindLiveObjects: 0.119900 ms CreateObjectMapping: 0.036400 ms MarkObjects: 2.250100 ms  DeleteObjects: 0.013300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 59.007647 seconds.
+  path: Assets/Dungeon Generator 3D/Demo/Settings
+  artifactKey: Guid(23f838aad2f258549b53fe2499cf9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dungeon Generator 3D/Demo/Settings using Guid(23f838aad2f258549b53fe2499cf9583) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72a0e559e31ec875b8a4021014b407db') in 0.006084 seconds 
+  Import took 0.008630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 90.514297 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(e430e8e03b5cb8446b6d23072df9ee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(e430e8e03b5cb8446b6d23072df9ee59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf9fb06805a2d9f6fbf79c83ab2494a0') in 0.007057 seconds 
+  Import took 0.009851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.978499 seconds.
+  path: Assets/Materials/Suelo.mat
+  artifactKey: Guid(c23880005dd9d5f458844e1ad37df302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Suelo.mat using Guid(c23880005dd9d5f458844e1ad37df302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4509327c79ab5c61261b3defcd264243') in 0.112118 seconds 
+  Import took 0.115324 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

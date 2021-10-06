@@ -1,5 +1,5 @@
 
-=== Mon Oct  4 19:16:06 2021
+=== Wed Oct  6 14:42:49 2021
 
 Packages were changed.
 Update Mode: mergeDefaultDependencies
@@ -44,3 +44,13 @@ The following packages were added:
   com.unity.textmeshpro@3.0.6
   com.unity.timeline@1.4.8
   com.unity.ugui@1.0.0
+
+=== Wed Oct  6 14:44:06 2021
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.2d.sprite@1.0.0
+  com.unity.2d.tilemap@1.0.0
+  com.unity.xr.legacyinputhelpers@2.1.4
