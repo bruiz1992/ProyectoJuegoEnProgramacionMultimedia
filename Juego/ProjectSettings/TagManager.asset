@@ -8,6 +8,11 @@ TagManager:
   - Wall
   - OuterCorner
   - Room
+  - armeria
+  - caldero
+  - antorcha
+  - Goul
+  - Esqueleto
   layers:
   - Default
   - TransparentFX
