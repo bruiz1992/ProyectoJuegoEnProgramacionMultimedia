@@ -13,8 +13,6 @@ TagManager:
   - antorcha
   - Goul
   - Esqueleto
-  - Puerta
-  - Interruptor
   layers:
   - Default
   - TransparentFX
