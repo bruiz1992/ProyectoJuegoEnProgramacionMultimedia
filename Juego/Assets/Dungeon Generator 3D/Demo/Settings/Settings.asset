@@ -42,32 +42,26 @@ MonoBehaviour:
     - gameObject: {fileID: 3746928169460061138, guid: 8fd16f9add3b6504a96a92177e5a8142, type: 3}
       name: Square Corner
     doors: []
-    doorsDisplacements:
-    - {x: 0, y: 0, z: 0}
-    - {x: 0, y: 0, z: 0}
+    doorsDisplacements: []
     flooring:
     - gameObject: {fileID: 8761019777689142071, guid: 0234e9a5ed8e17845afb71ada7e4676d, type: 3}
       name: Floor
-    player: {fileID: -927199367670048503, guid: 4d1b1786413326041bb908536099bae1, type: 3}
+    player: {fileID: 0}
     minEnemiesPerRoom: 0
     maxEnemiesPerRoom: 0
     enemies:
-    - gameObject: {fileID: 100174, guid: 5779b1a41ccf45b45bfc238034373133, type: 3}
-      name: Enemy
-    - gameObject: {fileID: 100174, guid: 5779b1a41ccf45b45bfc238034373133, type: 3}
-      name: Enemy
-    - gameObject: {fileID: 100174, guid: 5779b1a41ccf45b45bfc238034373133, type: 3}
-      name: Enemy
-    - gameObject: {fileID: 100174, guid: 5779b1a41ccf45b45bfc238034373133, type: 3}
-      name: Enemy
-    - gameObject: {fileID: 100174, guid: 5779b1a41ccf45b45bfc238034373133, type: 3}
-      name: Enemy
+    - gameObject: {fileID: 0}
+      name: 
+    - gameObject: {fileID: 0}
+      name: 
+    - gameObject: {fileID: 0}
+      name: 
+    - gameObject: {fileID: 0}
+      name: 
+    - gameObject: {fileID: 0}
+      name: 
     bosses: []
-    breakables:
-    - gameObject: {fileID: 0}
-      name: 
-    - gameObject: {fileID: 0}
-      name: 
+    breakables: []
     staticObjects:
     - gameObject: {fileID: 100000, guid: 051e3ba88d85e954684e39b4f0a90985, type: 3}
       name: yunke
@@ -75,8 +69,6 @@ MonoBehaviour:
       name: bag
     - gameObject: {fileID: 100000, guid: af63b0ab3cf00dd4da21fb3f09e419e1, type: 3}
       name: carro
-    - gameObject: {fileID: 100000, guid: 051e3ba88d85e954684e39b4f0a90985, type: 3}
-      name: carro
     - gameObject: {fileID: 190710, guid: 83dbbb8dec8a8de42b788eab746b43fd, type: 3}
       name: carro
     - gameObject: {fileID: 190710, guid: 83dbbb8dec8a8de42b788eab746b43fd, type: 3}
@@ -91,47 +83,9 @@ MonoBehaviour:
       name: carro
     - gameObject: {fileID: 190710, guid: 83dbbb8dec8a8de42b788eab746b43fd, type: 3}
       name: carro
-    - gameObject: {fileID: 190710, guid: 83dbbb8dec8a8de42b788eab746b43fd, type: 3}
-      name: carro
-    - gameObject: {fileID: 190710, guid: 83dbbb8dec8a8de42b788eab746b43fd, type: 3}
-      name: carro
-    - gameObject: {fileID: 190710, guid: 83dbbb8dec8a8de42b788eab746b43fd, type: 3}
-      name: carro
-    - gameObject: {fileID: 190710, guid: 83dbbb8dec8a8de42b788eab746b43fd, type: 3}
-      name: carro
-    wallObjects:
-    - gameObject: {fileID: 6870530027822479195, guid: b26d2a04cd435fa408ef9f38bad83aa5, type: 3}
-      name: Antorcha
-    - gameObject: {fileID: 6870530027822479195, guid: b26d2a04cd435fa408ef9f38bad83aa5, type: 3}
-      name: Antorcha
-    - gameObject: {fileID: 6870530027822479195, guid: b26d2a04cd435fa408ef9f38bad83aa5, type: 3}
-      name: Antorcha
-    - gameObject: {fileID: 6870530027822479195, guid: b26d2a04cd435fa408ef9f38bad83aa5, type: 3}
-      name: Antorcha
-    - gameObject: {fileID: 6870530027822479195, guid: b26d2a04cd435fa408ef9f38bad83aa5, type: 3}
-      name: Antorcha
-    - gameObject: {fileID: 6870530027822479195, guid: b26d2a04cd435fa408ef9f38bad83aa5, type: 3}
-      name: Antorcha
-    - gameObject: {fileID: 6870530027822479195, guid: b26d2a04cd435fa408ef9f38bad83aa5, type: 3}
-      name: Antorcha
-    - gameObject: {fileID: 6870530027822479195, guid: b26d2a04cd435fa408ef9f38bad83aa5, type: 3}
-      name: Antorcha
-    - gameObject: {fileID: 6870530027822479195, guid: b26d2a04cd435fa408ef9f38bad83aa5, type: 3}
-      name: Antorcha
-    - gameObject: {fileID: 6870530027822479195, guid: b26d2a04cd435fa408ef9f38bad83aa5, type: 3}
-      name: Antorcha
-    wallObjConsequitiveDistance: 5
-    wallObjDisplacements:
-    - {x: 0, y: 0, z: 0}
-    - {x: 0, y: 0, z: 0}
-    - {x: 0, y: 0, z: 0}
-    - {x: 0, y: 0, z: 0}
-    - {x: 0, y: 0, z: 0}
-    - {x: 0, y: 0, z: 0}
-    - {x: 0, y: 0, z: 0}
-    - {x: 0, y: 0, z: 0}
-    - {x: 0, y: 0, z: 0}
-    - {x: 0, y: 0, z: 0}
+    wallObjects: []
+    wallObjConsequitiveDistance: 0
+    wallObjDisplacements: []
     cornerObjectsRate: 0
     destroyablesRate: 0
     middleObjects:
@@ -139,6 +93,6 @@ MonoBehaviour:
       name: barril
     - gameObject: {fileID: 100000, guid: d4f5907888f66e544be3ae4e706c453f, type: 3}
       name: barril
-    - gameObject: {fileID: 174624, guid: 32ec60437affc154daf6bbf3557b1fe3, type: 3}
+    - gameObject: {fileID: 100000, guid: f1047b90c51658248adc080b5cf291f3, type: 3}
       name: barril
     middleObjectsRate: 30
