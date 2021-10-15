@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Nuestras Carpetas/Aaron/Escenas Aaron/prueba.unity
+- path: Assets/Nuestras Carpetas/Jorge/Escena1.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
