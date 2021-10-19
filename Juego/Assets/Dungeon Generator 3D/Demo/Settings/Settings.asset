@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Settings
   m_EditorClassIdentifier: 
   generation:
-    minRooms: 10
-    maxRooms: 15
+    minRooms: 19
+    maxRooms: 26
     amountOfAdjacentRoomsToConnect: 3
     minRoomWidth: 8
     maxRoomWidth: 12
@@ -84,7 +84,7 @@ MonoBehaviour:
     - gameObject: {fileID: 190710, guid: 83dbbb8dec8a8de42b788eab746b43fd, type: 3}
       name: carro
     wallObjects:
-    - gameObject: {fileID: 0}
+    - gameObject: {fileID: 6870530027822479195, guid: b26d2a04cd435fa408ef9f38bad83aa5, type: 3}
       name: 
     wallObjConsequitiveDistance: 5
     wallObjDisplacements:
@@ -94,8 +94,8 @@ MonoBehaviour:
     middleObjects:
     - gameObject: {fileID: 100000, guid: 7a0ce5ef7b0280c4b9d3cd0aefe01b1c, type: 3}
       name: Barril
-    - gameObject: {fileID: 141718, guid: eefa18c7aee7d324eb1d4af38eafc25a, type: 3}
-      name: Barriles
     - gameObject: {fileID: 116358, guid: 5790c7c1e7865114f93ccdd869db3056, type: 3}
+      name: Barriles
+    - gameObject: {fileID: 114046, guid: 23e4917209654d2429c3955900bdee6c, type: 3}
       name: Books
     middleObjectsRate: 54
