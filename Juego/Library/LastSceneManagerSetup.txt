@@ -1,17 +1,5 @@
 sceneSetups:
-- path: Assets/Nuestras Carpetas/Benjamin/benjaminPruebas.unity
+- path: Assets/JuegoFinal/Nivel1.unity
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
-- path: Assets/Nuestras Carpetas/Tamara/Menu/MenuInicio.unity
-  isLoaded: 1
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Nuestras Carpetas/Tamara/Menu Pausa/MenuPausa.unity
-  isLoaded: 1
-  isActive: 0
-  isSubScene: 0
-- path: Assets/Nuestras Carpetas/Tamara/Timer/Timer.unity
-  isLoaded: 1
-  isActive: 0
   isSubScene: 0
