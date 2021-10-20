@@ -15,5 +15,9 @@ public class VidaPlayer : MonoBehaviour
     {
         Vida = Mathf.Clamp(Vida, 0, 100);
         BarraVida.fillAmount = Vida / 100;
+        if(Vida == 0)
+        {
+            Application.LoadLevel(Application.loadedLevel);
+        }
     }
 }
