@@ -5,25 +5,25 @@ using UnityEngine.SceneManagement;
 
 public class GAME : MonoBehaviour
 {
-
+    public GameObject MenuInicio;
     // Start is called before the first frame update
     void Start()
     {
+
     }
 
-    // Update is called once per frame
     void Update()
     {
-
-        if (Input.GetKeyDown(KeyCode.P))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            SceneManager.LoadScene("Menu");
+            OpenMenu();
         }
     }
-    // Button Jugar
-    public void EmpezarJuego()
+
+    public void OpenMenu()
     {
-        SceneManager.LoadScene("Nivel1"); // Nombre de la escena principal
-        
+        Cursor.lockState = CursorLockMode.None;
+        MenuInicio.SetActive(true);
+        Time.timeScale = 0f;
     }
 }

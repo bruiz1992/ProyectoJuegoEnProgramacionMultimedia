@@ -20,6 +20,7 @@ public class pausa : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
+            Cursor.lockState = CursorLockMode.None;
             if (GameIsPaused)
             {
                 Resume();
@@ -31,11 +32,12 @@ public class pausa : MonoBehaviour
         }
     }
 
-    void Resume ()
+    public void Resume ()
     {
         pauseMenuUI.SetActive(false);
         Time.timeScale = 1f;
         GameIsPaused = false;
+        Cursor.lockState = CursorLockMode.Confined;
     }
 
     void Pause ()
